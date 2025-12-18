@@ -1,3 +1,4 @@
+import dotenv from "dotenv";
 const express = require("express");
 const fileUpload = require("express-fileupload");
 const dbCon = require("./db/db.connection");
@@ -11,6 +12,7 @@ const cors = require("cors")
 const app = express()
 const PORT = 3000 || process.env.PORT;
 
+dotenv.config();
 app.use(cors({credentials: true}))
 app.use(fileUpload());
 app.use(express.json());
