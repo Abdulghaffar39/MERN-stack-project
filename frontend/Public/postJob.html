@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post a Job</title>
+
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/utility.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+
+</head>
+
+<body>
+
+
+    <header>
+
+        <div class="parnet_1">
+
+            <img src="../Assets/Images/download-removebg-preview.png" alt="logo">
+        </div>
+
+        <div class="parnet_2">
+
+            <button onclick="dashboard()">Dashboard</button>
+            <button onclick="backPost(event)">Back</button>
+
+        </div>
+
+    </header>
+
+
+    <main class="postJob">
+
+        <form>
+
+
+            <div class="parent_1">
+
+                <h1>Create an employer account</h1>
+                <a href="findJob.html">I'm looking for a job
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+            <div class="parent_2">
+
+
+                <label for="company">Company name <span>*</span> </label>
+                <input type="text" id="company">
+
+
+            </div>
+
+            <div class="parent_3">
+
+
+                <div class="child_1">
+                    <label for="fname">First name <span>*</span> </label>
+                    <input type="text" id="fName">
+                </div>
+
+                <div class="child_2">
+                    <label for="lname">Last name <span>*</span> </label>
+                    <input type="text" id="lName">
+                </div>
+
+
+            </div>
+
+            <div class="parent_4">
+
+                <label for="num">Phone number</label>
+                <p>For account management communication. Not visible to job seekers.</p>
+                <input type="number" id="number" minlength="7">
+
+            </div>
+
+            <div class="parent_5" onclick="conti(event)">
+
+                <button>Continue
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+            </div>
+
+        </form>
+
+
+    </main>
+
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/1de706ad7b.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

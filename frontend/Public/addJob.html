@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/utility.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+
+</head>
+
+<body>
+
+
+    <header>
+
+        <div class="parnet_1">
+
+            <img src="../Assets/Images/download-removebg-preview.png" alt="logo">
+        </div>
+
+        <div class="parnet_2" onclick="addJob(event)">
+
+            <button>Back</button>
+
+        </div>
+
+    </header>
+
+
+    <main class="addJob">
+
+        <div class="container_1">
+
+            <h1>Add job basics</h1>
+
+        </div>
+
+        <div class="container_2">
+
+            <label for="tilte">Job Title <span>*</span> </label>
+            <input type="text" id="tilte">
+
+        </div>
+
+        <hr style="width: 100%;">
+
+        <div class="container_3">
+
+            <label for="location">Job location type <span>*</span> </label>
+            <select name="location" id="jobLocation">
+
+                <option value="Select" disabled selected>Select an option</option>
+                <option value="In Person">In Person</option>
+                <option value="Fully remote: no on-site work required">Fully remote: no on-site work required</option>
+                <option value="On the road">On the road</option>
+
+            </select>
+
+        </div>
+
+        <div class="container_3">
+
+            <label for="timeline">Hiring timeline for this job <span>*</span> </label>
+            <select name="timeline" id="jobTimeline">
+
+                <option value="selectTime" disabled selected>Select an option</option>
+                <option value="1 to 3 days">1 to 3 days</option>
+                <option value="3 to 7 days">3 to 7 days</option>
+                <option value="1 to 2 weeks">1 to 2 weeks</option>
+                <option value="2 to 4 weeks">2 to 4 weeks</option>
+                <option value="More than 4 weeks">More than 4 weeks</option>
+
+            </select>
+
+        </div>
+
+        <div class="container_3">
+
+            <label for="type">Job type <span>*</span> </label>
+            <select name="type" id="jobType">
+
+                <option value="selectType" disabled selected>Select job type</option>
+                <option value="Full-time">Full-time</option>
+                <option value="Part-time">Part-time</option>
+                <option value="Temporary">Temporary</option>
+                <option value="Contract">Contract</option>
+                <option value="Internship">Internship</option>
+                <option value="Fresher">Fresher</option>
+
+            </select>
+
+        </div>
+
+        <div class="container_3">
+
+            <label for="Pay">Pay <span>*</span> </label>
+            <select name="Pay" id="jobPay">
+
+                <option value="selectPay" disabled selected>Select Pay</option>
+                <option value="unPaid">Unpaid</option>
+                <option value="10000 to 30000">10000 to 30000</option>
+                <option value="30000 to 50000">30000 to 50000</option>
+                <option value="50000 to 80000">50000 to 80000</option>
+                <option value="80000 to 100000">80000 to 100000</option>
+                <option value="Greater than 100000">Greater than 100000</option>
+
+            </select>
+
+        </div>
+
+        <div class="container_4">
+
+            <label for="number">Number of people to hire in the next 30 days <span>*</span> </label>
+            <div class="child_1">
+                <input type="number" id="quantityInput" value="0" min="0" max="100">
+                <button class="minus" id="minus">-</button>
+                <button class="plus" id="plus">+</button>
+            </div>
+
+        </div>
+
+        <hr width="100%" />
+
+        <div class="container_5">
+
+            <label for="description">Job description <span>*</span> </label>
+            <textarea name="description" id="description" cols="5" rows="12" placeholder="Enter job description..."></textarea>
+
+        </div>
+
+        <button class="confirm" onclick="addJobConfirm(event)">Confirm
+            <i class="fa-solid fa-arrow-right"></i>
+        </button>
+
+    </main>
+
+    <script src="https://kit.fontawesome.com/1de706ad7b.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

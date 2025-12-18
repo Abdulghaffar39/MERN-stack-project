@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/utility.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+
+</head>
+
+<body onload="newJobDetais(event)">
+
+
+    <header>
+
+        <div class="parnet_1">
+
+            <img src="../Assets/Images/download-removebg-preview.png" alt="logo">
+        </div>
+
+        <div class="parnet_2" onclick="backFile(event)">
+
+            <button>Back</button>
+
+        </div>
+
+    </header>
+
+
+    <main class="newJobData">
+
+        <div class="containerCont">
+
+            <div class="container_1">
+
+                <div class="parent_1">
+
+                    <h1 id="newJobHead"></h1>
+
+                </div>
+
+                <div class="parent_2">
+
+                    <p id="newJobLocation"></p>
+                    <p id="newJobSalary1"></p>
+
+                </div>
+
+            </div>
+
+            <div class="container_2">
+
+                <div class="parent_1">
+
+                    <h1 class="jobDetailsHead">Job Details</h1>
+
+                </div>
+
+                <div class="parent_2">
+
+                    <div class="child_1">
+
+                        <i class="fa-solid fa-money-bill-wave"></i>
+                        <h4>Pay</h4>
+
+                    </div>
+
+                    <div class="child_2">
+
+                        <p id="newJobPayment"></p>
+
+                    </div>
+
+                </div>
+
+                <div class="parent_3">
+
+
+                    <div class="child_1">
+
+                        <i class="fa-solid fa-briefcase"></i>
+                        <h4>Job Type</h4>
+
+                    </div>
+
+                    <div class="child_2">
+
+                        <p id="newJobType"></p>
+
+                    </div>
+
+
+                </div>
+
+                <div class="parent_4">
+
+                    <div class="child_1">
+
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h4>Location</h4>
+
+                    </div>
+
+                    <div class="child_2">
+
+                        <p id="newJobLocation2"></p>
+
+                    </div>
+
+                </div>
+
+                <div class="parent_5">
+
+                    <div class="child_1">
+
+                        <h4 id="newJobDesHead">Full Job Description</h4>
+
+                        <p id="newJobDesPara"></p>
+
+                    </div>
+
+                </div>
+
+                <div class="parent_6" onclick="apply(event)">
+
+                    <button id="apply">Apply now</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/1de706ad7b.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

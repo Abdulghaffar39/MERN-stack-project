@@ -1,0 +1,1877 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-size: 62.4%;
+    background-color: rgb(233, 227, 227);
+    color: var(--color-white);
+}
+
+/* ------------------------------------ index SignUp started --------------------------- */
+
+/* ------------ header SignUp started ------------ */
+
+header {
+
+    width: 100%;
+    height: 120px;
+    background-color: rgb(195, 191, 115);
+    padding: 0px 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .parnet_1 img {
+
+    height: 120px;
+}
+
+header .parnet_2 {
+
+    width: auto;
+    border-radius: 10px;
+    
+    display: flex;
+    gap: 20px;
+    border: 1px solid black;
+    
+}
+
+header .parnet_2 button {
+
+    width: 140px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    color: gainsboro;
+    border-radius: 10px;
+    background-color: black;
+}
+
+header .parnet_2 button:hover {
+
+    color: black;
+    font-size: 19px;
+    transition: 0.8s all;
+    border: 2px solid black;
+    background-color: transparent;
+}
+
+/* ------------ header SignUp ended ------------ */
+
+.container_1 {
+
+    width: 100%;
+    height: 84vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_1 form {
+
+    width: 60%;
+    height: 90%;
+    margin: 0px auto;
+    padding: 20px 20px;
+    border-radius: 20px;
+    background-color: rgb(195, 191, 115);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+}
+
+.container_1 form h1 {
+
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(70, 67, 3);
+    /* text-shadow: 1px 1px 1px black; */
+}
+
+.container_1 form .parent_1 {
+
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.container_1 form .parent_1 label {
+
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(70, 67, 3);
+}
+
+.container_1 form .parent_1 input {
+
+    height: 50px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0px 10px;
+    margin-bottom: 25px;
+    color: var(--color-white);
+    border-radius: 0px 8px 8px 8px;
+    background-color: var(--bg-black);
+}
+
+.container_1 form .parent_1 input:hover {
+
+    background-color: rgb(13, 13, 13);
+}
+
+.container_1 form .signUp {
+
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    background-color: rgb(60, 55, 6);
+    border: 1px solid rgb(12, 11, 0);
+}
+
+.container_1 form .signUp:hover {
+
+    font-weight: 700;
+    font-size: 18;
+    transition: 0.8s all;
+    color: rgb(60, 55, 6);
+    background-color: transparent;
+    border: 1px solid rgb(12, 11, 0);
+}
+
+
+/* --------------------------------- index SignUp ended ------------------------- */
+
+
+/* --------------------------------- home started ------------------------- */
+
+.home {
+
+    width: 100%;
+    height: 84.5vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home .container_1 {
+
+    width: 40%;
+    height: 80%;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #c3bf73;
+    box-shadow: 5px 5px 10px rgb(136, 135, 135);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.home .container_1 .parent_1 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    gap: 10px;
+}
+
+.home .container_1 .parent_1 h1 {
+
+    font-size: 60px;
+    color: rgb(47, 45, 45);
+}
+
+.home .container_1 .parent_1 p {
+
+    font-size: 20px;
+    color: rgb(54, 54, 54)
+}
+
+.home .container_1 .parent_2 {
+
+    border-radius: 10px;
+}
+
+.home .container_1 .parent_2 button {
+
+    width: 150px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: transparent;
+}
+
+.home .container_1 .parent_2 button:hover {
+
+    font-size: 24px;
+    color: #c3bf73;
+    transition: 0.8s all;
+    border-style: none;
+    background-color: black;
+}
+
+
+/* --------------------------------- home ended ------------------------- */
+
+/* --------------------------------- post Job started ------------------------- */
+
+.postJob {
+
+    width: 70%;
+    height: 100%;
+    color: black;
+    margin: 30px auto;
+}
+
+.postJob form {
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.postJob .parent_1 {
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.postJob .parent_1 h1 {
+
+    font-size: 60px;
+}
+
+.postJob .parent_1 a {
+
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.postJob .parent_2 {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.postJob .parent_2 label,
+.postJob .parent_3 div label,
+.postJob .parent_4 label {
+
+    font-size: 20px;
+}
+
+.postJob .parent_2 label span,
+.postJob .parent_3 .child_1 label span,
+.postJob .parent_3 .child_2 label span {
+
+    font-size: 18px;
+    color: rgb(92, 7, 7);
+}
+
+.postJob .parent_2 input,
+.postJob .parent_3 div input,
+.postJob .parent_4 input {
+
+    width: 100%;
+    height: 50px;
+    outline: none;
+    font-size: 24px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: transparent;
+    box-shadow: 5px 5px 10px rgb(186, 184, 184);
+}
+
+.postJob .parent_2 input:hover,
+.postJob .parent_3 div input:hover,
+.postJob .parent_4 input:hover {
+
+    background-color: rgb(223, 221, 221);
+}
+
+.postJob .parent_2 label #hash {
+
+    font-size: 18px;
+    color: rgb(92, 7, 7);
+}
+
+.postJob .parent_3 {
+
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.postJob .parent_3 div {
+
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.postJob .parent_4 {
+
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.postJob .parent_4 p {
+
+    font-size: 16px;
+    color: rgb(61, 60, 60);
+}
+
+.postJob .parent_5 {
+
+    display: flex;
+    justify-content: end;
+}
+
+.postJob .parent_5 button {
+
+    width: 140px;
+    height: 45px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-style: none;
+    border-radius: 8px;
+    background-color: #004fcb;
+}
+
+.postJob .parent_5 button:hover {
+
+    transition: 0.4s all;
+    background-color: black;
+}
+
+/* --------------------------------- post Job ended ------------------------- */
+
+
+/* --------------------------------- Add Job started ------------------------- */
+
+.addJob {
+
+    width: 70%;
+    height: 100%;
+    color: black;
+    margin: 20px auto;
+    padding: 60px 0px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 30px;
+}
+
+.addJob div {
+
+    gap: 2px;
+}
+
+.addJob .container_1 {
+
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.addJob .container_1 {
+
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.addJob .container_4,
+.addJob .container_5 {
+
+    font-size: 25px;
+}
+
+.addJob .container_2,
+.addJob .container_3,
+.addJob .container_4 {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.addJob .container_2 label,
+.addJob .container_3 label,
+.addJob .container_4 label,
+.addJob .container_5 label {
+
+    font-size: 20px;
+}
+
+.addJob .container_2 label span,
+.addJob .container_3 label span,
+.addJob .container_4 label span,
+.addJob .container_5 label span {
+
+    font-size: 18px;
+    color: rgb(92, 7, 7);
+}
+
+.addJob .container_2 input,
+.addJob .container_4 input,
+.addJob .container_3 select {
+
+    width: 100%;
+    height: 50px;
+    outline: none;
+    font-size: 18px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: transparent;
+    box-shadow: 5px 5px 10px rgb(186, 184, 184);
+}
+
+.addJob .container_4 .child_1 {
+
+    display: flex;
+    gap: 0px;
+}
+
+.addJob .container_4 .child_1 {
+
+    display: flex;
+
+}
+
+.addJob .container_4 .child_1 input {
+
+    width: 30%;
+    height: 50px;
+    outline: none;
+    font-size: 24px;
+    padding: 0px 10px;
+    border: 1px solid black;
+    background-color: transparent;
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: 5px 5px 10px rgb(186, 184, 184);
+}
+
+.addJob .container_4 .child_1 .plus {
+
+    width: 5%;
+    height: 50px;
+    font-size: 38px;
+    font-weight: 400;
+    border: 1px solid black;
+    border-radius: 0px 10px 10px 0px;
+    background-color: rgb(214, 211, 211);
+    box-shadow: 0px 5px 10px rgb(186, 184, 184);
+}
+
+.addJob .container_4 .child_1 .minus {
+
+    width: 5%;
+    height: 50px;
+    font-size: 38px;
+    font-weight: 400;
+    border-left: none;
+    border-right: none;
+    border: 1px solid black;
+    background-color: rgb(214, 211, 211);
+    box-shadow: 0px 5px 10px rgb(186, 184, 184);
+
+    border-left: none;
+    border-right: none;
+}
+
+.addJob .container_4 .child_1 .plus:hover,
+.addJob .container_4 .child_1 .minus:hover {
+
+    background-color: rgb(190, 189, 189);
+}
+
+.addJob .container_3 select option {
+
+    color: rgb(27, 27, 27);
+    border: 6px solid black;
+    background-color: rgb(223, 221, 221);
+}
+
+.addJob .container_2 input:hover,
+.addJob .container_3 input:hover,
+.addJob .container_4 .child_1 input:hover {
+
+    background-color: rgb(223, 221, 221);
+}
+
+.addJob .container_5 {
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.addJob .container_5 textarea {
+
+    width: 100%;
+
+    outline: none;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    box-shadow: 0px 5px 10px rgb(186, 184, 184);
+}
+
+textarea:hover {
+
+    background-color: rgb(223, 221, 221);
+}
+
+.addJob .confirm {
+
+
+    width: 140px;
+    height: 45px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-style: none;
+    border-radius: 8px;
+    background-color: #004fcb;
+}
+
+
+/* --------------------------------- Add Job ended ------------------------- */
+
+
+
+/* ---------------------------------- Find Job started ------------------------- */
+
+
+.findJob {
+
+    width: 100%;
+    height: 100%;
+
+    margin: 40px 0px;
+
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.findJob .container_1 {
+
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    gap: 30px;
+}
+
+.findJob .container_1 .parent_1 {
+
+    width: 60%;
+    height: 150px;
+    padding: 0px 20px;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: transparent;
+    box-shadow: 5px 5px 10px rgb(192, 191, 191);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.findJob .container_1 .parent_1 .child_1 h1 {
+
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.findJob .container_1 .parent_1 .child_2 {
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.findJob .container_1 .parent_1 .child_2 p {
+
+    color: gray;
+    font-size: 16px;
+}
+
+.resumeCheck {
+
+    width: 150px;
+    height: 70px;
+    padding: 10px 15px;
+    color: black;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #c3bf73;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}
+
+.resumeCheck h4 {
+
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.resumeCheck img {
+
+    width: 50px;
+    margin: 0 auto;
+    display: flex;
+    animation-name: imgRotate;
+    animation-duration: 3s;
+    animation-delay: 0.6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+
+@keyframes imgRotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    35% {
+        transform: rotate(10deg);
+    }
+
+    60% {
+        transform: rotate(-10deg);
+    }
+
+    70% {
+        transform: rotate(10deg);
+
+    }
+
+    90% {
+        transform: rotate(-10deg);
+
+    }
+
+    100% {
+        transform: rotate(0deg);
+
+    }
+
+}
+
+;
+
+
+/* ---------------------------------- Find Job ended ------------------------- */
+
+
+/* ---------------------------------- resume started ------------------------- */
+
+.resume {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.resume .container_1 {
+
+    width: 70%;
+    height: 100%;
+    color: black;
+    margin: 30px auto;
+    padding: 60px 0px;
+    border-radius: 16px;
+    background-color: rgb(245, 243, 243);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+
+.resume .container_1 .title_1 {
+
+    font-size: 32px;
+}
+
+.resume .container_1 .parent_1 {
+
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.file {
+
+    width: 100%;
+    height: 150px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #c3bf73;
+}
+
+.file i,
+.file span {
+
+    font-size: 25px;
+}
+
+.file input[type="file"] {
+    display: none;
+}
+
+.file label {
+
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 3px dashed #625e22;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.file label:hover {
+
+    font-size: 22px !important;
+    transition: 0.4s all;
+    background-color: #d9d69d;
+    border: 3px dashed #060606;
+    box-shadow: 4px 4px 4px black;
+}
+
+.description {
+
+    width: 100%;
+    height: 100%;
+}
+
+.description textarea {
+
+    width: 100%;
+    height: 100%;
+    outline: none;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+}
+
+.description textarea:hover {
+
+    transition: 0.6s all;
+    background-color: rgb(237, 237, 237);
+}
+
+.buttonBox {
+
+    width: 100%;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonBox button {
+
+    width: 100%;
+    height: 100%;
+
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: 0.8s all;
+    background-color: rgb(16, 16, 16);
+
+}
+
+.buttonBox button:hover {
+
+    color: black;
+    border: 1px solid black;
+    background-color: rgb(251, 249, 249);
+}
+
+
+.checkResult {
+
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    color: black;
+}
+
+.checkResult .container_1 {
+
+    width: 90%;
+    height: 100%;
+    margin: 30px auto;
+    color: black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.checkResult .parent_1 {
+
+    width: 100%;
+    height: 80px;
+    color: black;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.checkResult .parent_1 h1 {
+
+    font-size: 30px;
+
+    display: flex;
+    gap: 20px;
+}
+
+.checkResult .parent_2,
+.checkResult .parent_3,
+.checkResult .parent_4 {
+
+    width: 100%;
+    color: black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    gap: 10px;
+}
+
+.checkResult .parent_2 div {
+
+    width: 100%;
+    color: black;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+    gap: 10px;
+}
+
+.checkResult .parent_2 div div {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.checkResult .parent_2 h3,
+.checkResult .parent_3 h3,
+.checkResult .parent_4 h3 {
+
+    font-size: 28px;
+}
+
+.checkResult .parent_2 ul {
+
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    list-style-position: inside;
+    background-color: rgb(198, 198, 198);
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.checkResult .parent_2 ul li,
+.checkResult .parent_3 div div,
+.checkResult .parent_4 div div {
+
+    font-size: 14px;
+}
+
+.checkResult .parent_3 div div,
+.checkResult .parent_4 div div {
+
+    background-color: rgb(198, 198, 198);
+}
+
+.checkResult .parent_5 {
+
+    width: 180px;
+    height: 45px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkResult .parent_5 button {
+
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 18px;
+    border-style: none;
+    border-radius: 8px;
+    background-color: black;
+}
+
+
+/* ---------------------------------- resume ended ------------------------- */
+
+
+/* ---------------------------------- Job Details started ------------------------- */
+
+.newJobData {
+
+    width: 100%;
+    height: 100%;
+    color: black;
+}
+
+.newJobData .containerCont {
+
+    width: 70%;
+    height: 100%;
+    margin: 0px auto;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.newJobData .containerCont .container_1 {
+
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    margin: 40px 0px;
+    border-radius: 16px 16px 0px 0px;
+    background-color: #c3bf73;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 30px;
+
+}
+
+.newJobData .containerCont .container_1 .parent_1 h1 {
+
+    font-size: 48px;
+}
+
+.newJobData .containerCont .container_1 .parent_2 {
+
+
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.newJobData .containerCont .container_1 .parent_2 p {
+
+    font-size: 20px;
+}
+
+.newJobData .containerCont .container_1 .parent_2 #newJobLocation {
+
+    color: rgb(49, 48, 48);
+}
+
+.newJobData .containerCont .container_1 .parent_2 #newJobSalary {
+
+    color: rgb(84, 84, 84);
+}
+
+.newJobData .containerCont .container_2 {
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+.newJobData .containerCont .container_2 .parent_1 h1 {
+
+    font-size: 38px;
+    padding: 6px 0px;
+    text-align: center;
+    background-color: rgb(32, 32, 32);
+    color: rgb(220, 218, 218);
+}
+
+.newJobData .containerCont .container_2 .parent_2,
+.newJobData .containerCont .container_2 .parent_2,
+.newJobData .containerCont .container_2 .parent_3,
+.newJobData .containerCont .container_2 .parent_4,
+.newJobData .containerCont .container_2 .parent_5 .child_1 {
+
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.newJobData .containerCont .container_2 .parent_2 .child_1,
+.newJobData .containerCont .container_2 .parent_3 .child_1,
+.newJobData .containerCont .container_2 .parent_4 .child_1 {
+
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.newJobData .containerCont .container_2 .parent_2 .child_1 i,
+.newJobData .containerCont .container_2 .parent_3 .child_1 i,
+.newJobData .containerCont .container_2 .parent_4 .child_1 i {
+
+    font-size: 20px;
+}
+
+.newJobData .containerCont .container_2 .parent_2 .child_1 h4,
+.newJobData .containerCont .container_2 .parent_3 .child_1 h4,
+.newJobData .containerCont .container_2 .parent_4 .child_1 h4,
+.newJobData .containerCont .container_2 .parent_5 .child_1 h4 {
+
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.newJobData .containerCont .container_2 .parent_2 .child_2,
+.newJobData .containerCont .container_2 .parent_3 .child_2,
+.newJobData .containerCont .container_2 .parent_4 .child_2,
+.newJobData .containerCont .container_2 .parent_5 .child_2 {
+
+    height: 50px;
+}
+
+.newJobData .containerCont .container_2 .parent_2 .child_2 p,
+.newJobData .containerCont .container_2 .parent_3 .child_2 p,
+.newJobData .containerCont .container_2 .parent_4 .child_2 p,
+.newJobData .containerCont .container_2 .parent_2 .child_2 input,
+.newJobData .containerCont .container_2 .parent_3 .child_2 input,
+.newJobData .containerCont .container_2 .parent_4 .child_2 input,
+.newJobData .containerCont .container_2 .parent_5 .child_2 input {
+
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    border-style: none;
+    background-color: rgb(201, 200, 200);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newJobData .containerCont .container_2 .parent_5 .child_1 p,
+.newJobData .containerCont .container_2 .parent_2 .child_2 input,
+.newJobData .containerCont .container_2 .parent_3 .child_2 input,
+.newJobData .containerCont .container_2 .parent_4 .child_2 input,
+.newJobData .containerCont .container_2 .parent_5 .child_2 input {
+
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 2px;
+    background-color: rgb(201, 200, 200);
+
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.newJobData .containerCont .container_2 .parent_2 .child_2 input:hover,
+.newJobData .containerCont .container_2 .parent_3 .child_2 input:hover,
+.newJobData .containerCont .container_2 .parent_4 .child_2 input:hover,
+.newJobData .containerCont .container_2 .parent_5 .child_2 input:hover {
+
+    background-color: rgb(189, 189, 189);
+
+}
+
+.newJobData .containerCont .container_2 .parent_6 {
+
+    width: 100%;
+    height: 50px;
+    background-color: #c3bf73;
+    border-radius: 0px 0px 16px 16px;
+}
+
+.newJobData .containerCont .container_2 .parent_6 button {
+
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    font-weight: 700;
+    border-style: none;
+    background-color: transparent;
+    border-radius: 0px 0px 16px 16px;
+}
+
+.newJobData .containerCont .container_2 .parent_6 button:hover {
+
+    font-size: 19px;
+    color: #c3bf73;
+    border-style: none;
+    background-color: black;
+    border-radius: 0px 0px 16px 16px;
+}
+
+
+/* ---------------------------------- Job Details ended ------------------------- */
+
+
+/* ---------------------------------- template started ------------------------- */
+
+.template {
+
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    color: black;
+    padding: 20px 30px;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.template .container_1 {
+
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 60px;
+}
+
+
+.template .container_1 .parent_1 {
+
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.template .container_1 .parent_2 {
+
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+}
+
+.template .container_1 .parent_2 .child_1 h1 {
+
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.template .container_1 .parent_2 .child_2 h4 {
+
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.template .container_2 {
+
+    width: 100%;
+    padding: 8px 0px;
+    border-top: 3px solid #8d8d8d;
+    border-bottom: 3px solid #8d8d8d;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.template .container_2 div {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.template .container_2 div img {
+
+    width: 22px;
+}
+
+.template .container_2 div p {
+
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.template .container_3 {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.template .container_3 .parent_1 {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+
+}
+
+
+.template .container_3 .parent_1 img {
+
+    width: 18px;
+}
+
+.template .container_3 .parent_1 h5 {
+
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.template .container_3 .parent_2 {
+
+    border: 3px solid #cac9d1;
+}
+
+.template .container_3 .parent_3 {
+
+    font-size: 12px;
+}
+
+.template .container_4 {
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.template .container_4 .parent_1 {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+
+}
+
+.template .container_4 .parent_1 img {
+
+    width: 18px;
+}
+
+.template .container_4 .parent_1 h5 {
+
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.template .container_4 .parent_2 {
+
+    border: 3px solid #cac9d1;
+}
+
+.template .container_4 .parent_3 {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.template .container_4 .parent_3 h6 {
+
+    font-size: 14px;
+}
+
+.template .container_4 .parent_3 div {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.template .container_4 .parent_3 div p {
+
+    color: gray;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.template .container_4 .parent_3 ul {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    list-style: none;
+    padding-left: 20px;
+}
+
+.template .container_4 .parent_3 ul li {
+
+    position: relative;
+    padding-left: 20px;
+    font-size: 12px;
+}
+
+.template .container_4 .parent_3 ul li::before {
+
+    left: 8px;
+    content: "•";
+    position: absolute;
+}
+
+
+.template .container_5 {
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.template .container_5 .parent_1 {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+
+}
+
+.template .container_5 .parent_1 img {
+
+    width: 18px;
+}
+
+.template .container_5 .parent_1 h5 {
+
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.template .container_5 .parent_2 {
+
+    border: 3px solid #cac9d1;
+}
+
+.template .container_5 .parent_3 {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.template .container_5 .parent_3 .child_1,
+.template .container_5 .parent_3 .child_2 {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.template .container_5 .parent_3 div h4 {
+
+    font-size: 14px;
+}
+
+.template .container_5 .parent_3 div h6 {
+
+    font-size: 12px;
+}
+
+.template .container_5 .parent_3 div div {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 6px;
+}
+
+.template .container_5 .parent_3 div div p {
+
+    color: gray;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+* {
+    border: none;
+}
+
+
+/* ---------------------------------- template ended ------------------------- */
+
+
+
+@media (max-width: 1230px) {
+
+    /* ---------------------------------- home started ------------------------- */
+
+    .home .container_1 {
+
+        padding: 30px;
+    }
+
+    .home .container_1 .parent_1 h1 {
+
+        font-size: 60px;
+    }
+
+    /* ---------------------------------- home ended ------------------------- */
+
+}
+
+@media (max-width: 1024px) {
+
+    /* ---------------------------------- home started ------------------------- */
+
+    .home .container_1 {
+
+        padding: 30px;
+    }
+
+    .home .container_1 .parent_1 h1 {
+
+        font-size: 45px;
+    }
+
+    /* ---------------------------------- home ended ------------------------- */
+
+    /* ---------------------------------- Add Job started ------------------------- */
+
+    .addJob .container_4 .child_1 .plus {
+
+        width: 10%;
+    }
+
+    .addJob .container_4 .child_1 .minus {
+
+        width: 10%;
+    }
+
+    /* ---------------------------------- Add Job ended ------------------------- */
+
+}
+
+@media (max-width: 768px) {
+
+    /* ---------------------------------- index SignUp started ------------------------- */
+
+    .container_1 form {
+
+        width: 80%;
+        gap: 20px;
+    }
+
+    /* ---------------------------------- index SignUp ended ------------------------- */
+
+
+    /* ---------------------------------- home started ------------------------- */
+
+    .home {
+
+        padding: 20px;
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .home .container_1 {
+
+        padding: 20px;
+        width: 90%;
+        gap: 20px;
+    }
+
+    .home .container_1 .parent_1 {
+
+        gap: 10px;
+    }
+
+    .home .container_1 .parent_1 h1 {
+
+        font-size: 40px;
+        font-weight: 800;
+    }
+
+    /* ---------------------------------- home ended ------------------------- */
+
+    /* ---------------------------------- PostJob started ------------------------- */
+
+    .postJob {
+
+        width: 90%;
+    }
+
+    /* ---------------------------------- PostJob ended ------------------------- */
+
+
+    /* ---------------------------------- Add Job started ------------------------- */
+
+    .addJob {
+
+        width: 95%;
+    }
+
+    .addJob .container_1 h1 {
+
+        font-size: 45px;
+    }
+
+    .addJob .container_4 .child_1 input {
+
+        width: 55%;
+    }
+
+    .addJob .container_4 .child_1 .plus {
+
+        width: 15%;
+    }
+
+    .addJob .container_4 .child_1 .minus {
+
+        width: 15%;
+    }
+
+    /* ---------------------------------- Add Job ended ------------------------- */
+
+    /* ---------------------------------- Find Job started ------------------------- */
+
+    .findJob .container_1 .parent_1 {
+
+        width: 80%;
+    }
+
+
+
+    /* ---------------------------------- Find Job ended ------------------------- */
+
+    /* ---------------------------------- Job Details started ------------------------- */
+
+    .newJobData .containerCont {
+
+        width: 85%;
+    }
+
+    /* ---------------------------------- Job Details ended ------------------------- */
+
+    /* ---------------------------------- Resume started ------------------------- */
+
+
+    .resume .container_1 {
+
+        width: 95%;
+
+    }
+
+
+    .resume .container_1 .parent_1 button {
+
+        width: 100%;
+    }
+
+    .checkResult .parent_1 {
+
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .checkResult .parent_1 h1 {
+
+        display: flex;
+        justify-content: space-between;
+        gap: 0;
+    }
+
+    /* ---------------------------------- Resume ended ------------------------- */
+
+
+}
+
+@media (max-width: 425px) {
+
+    /* ---------------------------------- index SignUp started ------------------------- */
+
+    /* ---------------------------------- header SignUp started ------------------------- */
+
+    header {
+
+        padding: 0px;
+        justify-content: space-around;
+    }
+
+
+    header .parnet_2 {
+
+        width: 80px;
+        height: 40px;
+    }
+
+    header .parnet_2 button {
+
+        font-size: 14px;
+    }
+
+    /* ---------------------------------- header SignUp started ------------------------- */
+
+    .container_1 form {
+
+        width: 96%;
+    }
+
+    .container_1 form .parent_1 {
+
+        width: 100%;
+    }
+
+    /* ---------------------------------- index SignUp ended ------------------------- */
+
+
+
+
+    /* ---------------------------------- home started ------------------------- */
+
+    .home {
+
+        padding: 20px 0px;
+        gap: 20px;
+    }
+
+    .home .container_1 {
+
+        padding: 15px;
+        ;
+        width: 95%;
+        gap: 10px;
+    }
+
+    .home .container_1 .parent_1 h1 {
+
+        font-size: 30px;
+    }
+
+    .home .container_1 .parent_1 p {
+
+        font-size: 16px;
+    }
+
+    .home .container_1 .parent_2 button {
+
+        width: 100px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    /* ---------------------------------- home ended ------------------------- */
+
+    /* ---------------------------------- postJob started ------------------------- */
+
+    .postJob {
+
+        width: 95%;
+    }
+
+    .postJob form .parent_1 h1 {
+
+        font-size: 40px;
+    }
+
+    .postJob form .parent_3 {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .postJob form .parent_3 .child_1,
+    .postJob form .parent_3 .child_2 {
+
+        width: 100%;
+    }
+
+    /* ---------------------------------- home ended ------------------------- */
+
+
+    /* ---------------------------------- Add Job started ------------------------- */
+
+    .addJob .container_4 .child_1 input {
+
+        width: 55%;
+    }
+
+    .addJob .container_4 .child_1 .plus {
+
+        width: 20%;
+    }
+
+    .addJob .container_4 .child_1 .minus {
+
+        width: 20%;
+    }
+
+    /* ---------------------------------- Add Job ended ------------------------- */
+
+
+    /* ---------------------------------- Find Job started ------------------------- */
+
+    .findJob .container_1 {
+
+        padding: 20px 0px;
+    }
+
+    .findJob .container_1 .parent_1 {
+
+        width: 95%;
+    }
+
+    /* ---------------------------------- Find Job ended ------------------------- */
+
+
+    /* ---------------------------------- Job Details Started ------------------------- */
+
+    .newJobData .containerCont {
+
+        width: 100%;
+    }
+
+    /* ---------------------------------- Job Details ended ------------------------- */
+
+
+    /* ---------------------------------- Resume started ------------------------- */
+
+
+    .resume .container_1 {
+
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .file i,
+    .file span {
+
+        font-size: 18px;
+    }
+
+    .description textarea{
+
+        font-size: 18px;
+    }
+
+    /* ---------------------------------- resume ended ------------------------- */
+
+
+
+}

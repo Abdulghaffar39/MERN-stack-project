@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/utility.css">
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="parnet_1">
+
+            <img src="../Assets/Images/download-removebg-preview.png" alt="logo">
+        </div>
+
+        <div class="parnet_2" onclick="goLogin(event)">
+
+            <button>Log In</button>
+
+        </div>
+
+    </header>
+
+    <div class="container_1">
+
+        <form onsubmit="signUp(event)">
+
+            <h1>Sign Up</h1>
+
+            <div class="parent_1">
+
+                <label for="fname">Full Name</label>
+                <input type="text" name="fname" id="fullName" placeholder="Enter your Name">
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your Email">
+
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Enter your Password"
+                    autocomplete="new-password">
+
+            </div>
+
+            <input type="submit" class="signUp" value="Sign Up">
+
+        </form>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
